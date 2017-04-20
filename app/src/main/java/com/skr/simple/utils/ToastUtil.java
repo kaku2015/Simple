@@ -61,6 +61,16 @@ public class ToastUtil {
 
     }
 
+    public static void showLongToast(int msgId) {
+        showToast(App.getAppContext(), App.getAppContext().getString(msgId), Toast.LENGTH_LONG, 3000);
+
+    }
+
+    public static void showLongToast(String msg) {
+        showToast(App.getAppContext(), msg, Toast.LENGTH_LONG, 3000);
+
+    }
+
     /**
      * 长时间显示Toast
      *

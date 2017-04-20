@@ -119,37 +119,37 @@ public class App extends Application {
         this.registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
             @Override
             public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityCreated");
+                KLog.v();
             }
 
             @Override
             public void onActivityStarted(Activity activity) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityStarted");
+                KLog.v();
             }
 
             @Override
             public void onActivityResumed(Activity activity) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityResumed");
+                KLog.v();
             }
 
             @Override
             public void onActivityPaused(Activity activity) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityPaused");
+                KLog.v();
             }
 
             @Override
             public void onActivityStopped(Activity activity) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityStopped");
+                KLog.v();
             }
 
             @Override
             public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivitySaveInstanceState");
+                KLog.v();
             }
 
             @Override
             public void onActivityDestroyed(Activity activity) {
-                KLog.v(LOG_TAG, activity.getComponentName() + "  onActivityDestroyed");
+                KLog.v();
             }
         });
     }

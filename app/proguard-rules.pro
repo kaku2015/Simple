@@ -77,8 +77,12 @@
 
 #jar文件
 ##不混淆第三方jar包中的类 保留第三方jar包的所有类及其成员和方法
-#-keep class ?.** {*;}
-#-dontwarn ?.**
+-keep class com.android.mobileSec.** {*;}
+-keep class com.huawei.nfc.** {*;}
+-keep class com.pekall.enterprise.** {*;}
+-keep class com.tdtech.devicemanager.** {*;}
+-keep class com.thundersoft.** {*;}
+-keep class lte.trunk.devicemanager.** {*;}
 
 #第三方库
 #event bus
